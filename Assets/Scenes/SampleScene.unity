@@ -597,7 +597,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 631620379}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 68c4a734c57f8f1428881f1e1b6b8b38, type: 2}
+  m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -626,11 +626,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74fd0b76b84e0604cb73c3905b738364, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 8
+  jumpingPower: 16
   rb: {fileID: 631620380}
-  groundCheck: {fileID: 6690875644043298878}
-  groundLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!114 &631620387
 MonoBehaviour:
   m_ObjectHideFlags: 0

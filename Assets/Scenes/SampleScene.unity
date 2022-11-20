@@ -275,7 +275,7 @@ MonoBehaviour:
   groundCheck: {fileID: 6690875644043298878}
   groundLayer:
     serializedVersion: 2
-    m_Bits: 4
+    m_Bits: 64
 --- !u!114 &631620387
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8149624868295157533, guid: bc2ccca4e9511914fb93860d47683fe4, type: 3}
       propertyPath: m_Layer
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc2ccca4e9511914fb93860d47683fe4, type: 3}

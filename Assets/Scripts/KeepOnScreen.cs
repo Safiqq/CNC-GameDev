@@ -22,7 +22,7 @@ public class KeepOnScreen : MonoBehaviour
     {
         Vector3 viewPos = transform.position;
         viewPos.x = Mathf.Clamp(viewPos.x, screenBounds.x * -1 - objectWidth + 1, screenBounds.x + objectWidth - 1);
-        viewPos.y = Mathf.Clamp(viewPos.y, screenBounds.y * -1 - objectHeight + 1, screenBounds.y + objectHeight - 1);
+        viewPos.y = Mathf.Clamp(viewPos.y, screenBounds.y * -1 - objectHeight, screenBounds.y + objectHeight - 1);
         transform.position = viewPos;
     }
 }
